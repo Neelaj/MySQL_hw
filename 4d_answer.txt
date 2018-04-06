@@ -1,0 +1,18 @@
+update actor
+         
+set first_name = 
+         
+      case 
+         
+      when first_name = 'GROCHO' then ' MUCHO GROCHO'
+         
+      when first_name = 'HARPO' then 'GROCHO'
+         
+      end
+
+where  actor_id = 172
+
+
+
+select actor_id, first_name, last_name from actor where last_name = 'WILLIAMS';
+     
